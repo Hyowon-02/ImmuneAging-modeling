@@ -1,0 +1,22 @@
+[
+  {
+    "file": "workflows/1.preprocessing/prepare_aida.py",
+    "replacement": "../raw_data/AIDA_Freeze_v2.h5ad"
+  },
+  {
+    "file": "workflows/4.prediction_model/05_resampling.py",
+    "replacement": ".."
+  },
+  {
+    "file": "workflows/6.healthy_validation/Korean_COVID_validation/02_predict_our_model.py",
+    "replacement": "../.."
+  },
+  {
+    "file": "workflows/6.healthy_validation/Korean_COVID_validation/03_predict_li_model.py",
+    "replacement": "../.."
+  },
+  {
+    "file": "workflows/6.healthy_validation/Korean_COVID_validation/03_predict_li_model.py",
+    "replacement": "../../raw_data/li_reference"
+  }
+]

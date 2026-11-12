@@ -1,0 +1,30 @@
+{
+  "python_syntax": "passed",
+  "imports": [
+    "anndata",
+    "argparse",
+    "collections",
+    "gc",
+    "joblib",
+    "json",
+    "lightgbm",
+    "matplotlib",
+    "numpy",
+    "os",
+    "pandas",
+    "pathlib",
+    "random",
+    "re",
+    "runpy",
+    "scanpy",
+    "scipy",
+    "seaborn",
+    "sklearn",
+    "statsmodels",
+    "subprocess",
+    "tqdm",
+    "warnings"
+  ],
+  "remaining_local_path_locations": [],
+  "end_to_end_execution": "not performed; cohort data and model artifacts unavailable"
+}

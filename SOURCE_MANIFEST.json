@@ -1,0 +1,123 @@
+[
+  {
+    "source": "figure1/preprocessing.ipynb",
+    "source_sha256": "9a14bb67828f2c0811047de7471b5830dc8c164fe4488f212eba938e5e4c73b2",
+    "cells": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12
+    ],
+    "destination": "workflows/1.preprocessing/prepare_aida.py"
+  },
+  {
+    "source": "figure2/2.DEG_analysis.ipynb",
+    "source_sha256": "23ab696a2e363e3af0df3e68d47d395577de178bafe34462887cc45c9a8e53e7",
+    "cells": [
+      0,
+      2,
+      4,
+      8
+    ],
+    "destination": "workflows/2.DEG_analysis/01_pseudobulk.py"
+  },
+  {
+    "source": "figure2/DEG_analysis.R",
+    "source_sha256": "81bd579f7a3b6a7037e58294863bf20f23d58d227e83d53ea2803ae78cccfab6",
+    "destination": "workflows/2.DEG_analysis/02_select_aags.R"
+  },
+  {
+    "source": "figure4/1.train_test_split.ipynb",
+    "source_sha256": "dc05704a448105d306aca205c45e11ade42f5bbc52cd074a27fb9250f1edf5c1",
+    "cells": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "destination": "workflows/4.prediction_model/01_split_donors.py"
+  },
+  {
+    "source": "figure4/2.pseudocell.ipynb",
+    "source_sha256": "09138f16065cff2152227d31e3794184fd52570de0545dca3c57f0d8af590cac",
+    "cells": [
+      0
+    ],
+    "destination": "workflows/4.prediction_model/02_size_sensitivity.py"
+  },
+  {
+    "source": "figure4/2.pseudocell.ipynb",
+    "source_sha256": "09138f16065cff2152227d31e3794184fd52570de0545dca3c57f0d8af590cac",
+    "cells": [
+      2
+    ],
+    "destination": "workflows/4.prediction_model/03_make_pseudocells.py"
+  },
+  {
+    "source": "figure4/3.Modeling.ipynb",
+    "source_sha256": "dbb953cd3bbe325e09d9bdf9bec62f2a6ddac14d2c330877f2a91214d0baad14",
+    "cells": [
+      1
+    ],
+    "destination": "workflows/4.prediction_model/04_train_models.py"
+  },
+  {
+    "source": "figure4/4.resampling test.ipynb",
+    "source_sha256": "de292a7c6db5ae4928a5bd528a1c67d35304fd4c5df738f173d5007a4309a963",
+    "cells": [
+      0
+    ],
+    "destination": "workflows/4.prediction_model/05_resampling.py"
+  },
+  {
+    "source": "figure4/5.cell_proportion_validation.ipynb",
+    "source_sha256": "6c572e7fe7dcfe93b166c6635cb8bd924e23bd1131650adb15b22426fe31901c",
+    "cells": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11
+    ],
+    "destination": "workflows/4.prediction_model/06_composition_baseline.py"
+  },
+  {
+    "source": "figure4/Korean_validation/pseudocell.ipynb",
+    "source_sha256": "3763a46cde20cfa6f61707faf00378b61fe69a17f93e5b774e5af3d3dff7b525",
+    "cells": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "destination": "workflows/6.healthy_validation/Korean_COVID_validation/01_make_pseudocells.py"
+  },
+  {
+    "source": "figure4/Korean_validation/validation_test.ipynb",
+    "source_sha256": "f1c652b381ba0cddd38182796a358f3a15d439ba0d6e248473fb65149ebbff57",
+    "cells": [
+      0
+    ],
+    "destination": "workflows/6.healthy_validation/Korean_COVID_validation/02_predict_our_model.py"
+  },
+  {
+    "source": "session/Li_model_revision/li_mapping_replacement.py",
+    "destination": "workflows/6.healthy_validation/Korean_COVID_validation/03_predict_li_model.py",
+    "changes": "Added raw-count loading, validation, CP10K/log1p and Normal filter."
+  },
+  {
+    "source": "session/Li_model_revision/plot_absolute_error_paired.py",
+    "destination": "workflows/6.healthy_validation/Korean_COVID_validation/04_compare_absolute_error.py",
+    "changes": "MAE-only, three Holm-adjusted tests, star-only plot."
+  }
+]
