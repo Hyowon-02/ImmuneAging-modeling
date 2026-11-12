@@ -1,0 +1,15 @@
+# Starting environment, NOT a recovered lockfile. Verify in the analysis environment.
+scanpy==1.11.4
+scikit-learn==1.7.1
+lightgbm==4.6.0
+anndata
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+statsmodels
+joblib
+tqdm
+openpyxl
+h5py
